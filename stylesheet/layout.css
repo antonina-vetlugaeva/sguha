@@ -5,15 +5,17 @@
 
 
 header nav {
+  position: fixed;
+
   display: flex;
 
   width: 100%;
-  padding: 10px 15px 10px;
+  padding: 10px 15px 10px 15px;
 
   background-color: white;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 
-  font-family: PT Sans, sans-serif;
+  font-family: 'PT Sans', sans-serif;
 
   justify-content: space-between;
   align-items: center;
@@ -25,6 +27,8 @@ header img {
 }
 
 header a {
+  padding-right: 30px;
+
   text-decoration: none;
 
   color: rgba(0, 0, 0, 0.2);
@@ -35,7 +39,7 @@ header a {
 
 .main {
   width: 580px;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-left: 90px;
 }
 
@@ -96,10 +100,6 @@ header a {
 }
 
 .end {
-  display: block;
-  display: inline-block;
-
-  margin: 0 auto;
   padding-top: 190px;
 
   text-align: center;
@@ -126,6 +126,8 @@ header a {
   display: flex;
 
   padding-top: 110px;
+
+  text-align: center;
 
   justify-content: space-around;
   align-items: center;
@@ -174,4 +176,11 @@ footer {
 
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+
+
+
+
 }
