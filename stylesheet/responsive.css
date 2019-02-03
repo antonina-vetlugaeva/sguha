@@ -1,0 +1,71 @@
+@media screen and (min-width: 1024px) {
+
+  .main {
+    display: flex;
+    flex-direction: column;
+
+    width: 410px;
+    padding-top: 125px;
+    padding-left: 120px;
+  }
+
+  .main h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .main p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .mainph {
+    position: absolute;
+    top: 85px;
+    right: 0;
+  }
+
+  .preparation {
+    position: absolute;
+
+    width: 410px;
+    margin-top: 290px;
+    padding-left:  494px;
+  }
+
+  .preparation h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .preparation p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .sguhi {
+    width: 450px;
+    height: 337px;
+    margin-top: 350px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+  .end h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .end p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+
+
+
+
+
+}
